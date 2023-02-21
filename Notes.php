@@ -14,7 +14,7 @@
 
 
 
-<center><h1 class="sm:text-3xl text-2xl py-24 font-medium title-font mb-4 text-blue-900">My Suggestions</h1></center>
+<center><h1 class="sm:text-3xl text-2xl py-24 font-medium title-font text-blue-900">My Suggestions</h1></center>
     
 
     <section class="text-gray-600 body-font">
