@@ -31,17 +31,17 @@
         </section>
 
 
-        <center><h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900">Populor Programming Languages</h1></center>
+        <center><h1 class="sm:text-3xl text-2xl font-medium title-font mb-14 text-blue-900">Populor Programming Languages</h1></center>
 
-    <section class="text-gray-600 body-font">
-        <div class="container px-14 py-10 mx-auto">
+        <section class="text-gray-600 body-font">
+        <div class="container px-14 py-0 mx-auto">
             <div class="flex flex-wrap -m-4">
             <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white shadow-lg">
-                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Cl.jpg" alt="blog">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="HTML.jpg" alt="blog">
                 <div class="p-6">
                     <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Free Course</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">C Language</h1>
+                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">HTML 5</h1>
                     <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     <div class="flex items-center flex-wrap ">
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
@@ -53,10 +53,10 @@
             </div>
             <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white shadow-lg">
-                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Cpp.jpg" alt="blog">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="CSS.png" alt="blog">
                 <div class="p-6">
                     <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Free Course</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">C++ Language</h1>
+                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">CSS 3</h1>
                     <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     <div class="flex items-center flex-wrap">
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
@@ -68,10 +68,10 @@
             </div>
             <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white shadow-lg">
-                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Java.png" alt="blog">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="JavaScript.jpg" alt="blog">
                 <div class="p-6">
                     <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Free Course</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Java Language</h1>
+                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">JavaScript</h1>
                     <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     <div class="flex items-center flex-wrap ">
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
@@ -130,5 +130,6 @@
         <?php
             include "Footer.php";
         ?>
+
 </body>
 </html>
