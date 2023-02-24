@@ -15,7 +15,7 @@
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <a class="mr-5 cursor-pointer" href="index.php">Home</a>
             <a class="mr-5 cursor-pointer" href="Languages.php">Languages</a>
-            <a class="mr-5 cursor-pointer" href="Notes.php">My Suggestions</a>
+            <a class="mr-5 cursor-pointer" href="Suggestion.php">My Suggestions</a>
             <a class="mr-5 cursor-pointer" href="Blog.php">Blogs</a>
             <a class="mr-5 cursor-pointer" href="Contact.php">Contac Us</a>
             <a class="mr-5 cursor-pointer" href="WWM.php">Work With Me</a>

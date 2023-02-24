@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Languages || WorldProgramming</title>
+    <title>Suggestion || WorldProgramming</title>
 </head>
 <body>
         <?php
             include "Header.php";
         ?>
 
-    <center><h1 class="sm:text-3xl text-2xl py-24 font-medium title-fonts text-blue-900">Programming Languages</h1></center>
+    <center><h1 class="sm:text-3xl text-2xl py-24 font-medium title-fonts text-blue-900">My Suggestion</h1></center>
     
 
     
