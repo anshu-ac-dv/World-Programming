@@ -44,9 +44,11 @@
                         <h1 class="title-font text-lg font-medium text-gray-900 mb-3">HTML 5</h1>
                         <p class="leading-relaxed mb-3">HTML 5 is used for ront-end devlopment and this section for HTML 5 all program and code to devlop any type of website. Click start learnig to see more infromation.</p>
                         <div class="flex items-center flex-wrap ">
+                        <a href="/Web/Lang/HTML.php">
                         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                             Start Learinig
                         </button>
+                        </a>
                         </div>
                     </div>
                     </div>
@@ -59,9 +61,11 @@
                         <h1 class="title-font text-lg font-medium text-gray-900 mb-3">CSS 3</h1>
                         <p class="leading-relaxed mb-3">CSS 3 to use design a web page in this section to see diffrent type of design. Click start learning top see more infromation about CSS 3.</p>
                         <div class="flex items-center flex-wrap">
+                        <a href="/Web/Lang/CSS.php">
                         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Start Learinig
+                            Start Learinig
                         </button>
+                        </a>
                         </div>
                     </div>
                     </div>
@@ -74,9 +78,11 @@
                         <h1 class="title-font text-lg font-medium text-gray-900 mb-3">JavaScript</h1>
                         <p class="leading-relaxed mb-3">JavaScript is used for front-end devlopment and back-end devlopment in this section all program about JavaScript. Click start learning to see more infromation.</p>
                         <div class="flex items-center flex-wrap ">
+                        <a href="/Web/Lang/JavaScript.php">
                         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Start Learinig
+                            Start Learinig
                         </button>
+                        </a>
                         </div>
                     </div>
                     </div>

@@ -134,9 +134,11 @@
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">C Language</h1>
                     <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     <div class="flex items-center flex-wrap ">
+                    <a href="/Web/Lang/c.php">
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                         Start Learinig
                     </button>
+                    </a>
                     </div>
                 </div>
                 </div>
