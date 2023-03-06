@@ -8,10 +8,10 @@
     <title>Home | WorldProgramming</title>
 </head>
 <body>
+
         <?php
             include "Header.php";
         ?>
-
 
         <section class="text-gray-600 body-font bg-white p-10">
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -29,7 +29,6 @@
                 </div>
             </div>
         </section>
-
 
         <center><h1 class="sm:text-3xl text-2xl font-medium title-font mb-14 text-blue-900">Populor Programming Languages</h1></center>
 
@@ -92,7 +91,6 @@
         </section>
 
 
-
                 <section class="text-gray-600 body-font">
                     <div class="container px-5 py-10 mx-auto">
                         <h1 class="text-3xl font-medium title-font text-blue-900 mb-12 text-center">Testimonials</h1>
@@ -130,8 +128,6 @@
                         </div>
                     </div>
                 </section>
-
-
 
         <?php
             include "Footer.php";
