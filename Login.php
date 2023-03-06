@@ -8,34 +8,43 @@
   </head>
   <body>
     <?php
-
-    // Start the session for user login.
+  
       session_start();
-    // Check user click on login button.
+    
       if (isset($_POST['login'])) {
-        // Connect database.
+        
         include 'dbcon.php';
-        // Set variable for Username and password.
+        
         $username = $_POST['username'];
         $password = $_POST['password'];
-        // Fatch the record into the database.
+        
         $sql = "SELECT * FROM registration WHERE Email ='$username' AND Password='$password'";
-        // Execute the query.
+        
         $r = mysqli_query($conn, $sql);
-        // Fatch the quesry.
-        $row = mysqli_fetch_assoc($r);
-        // Check email and password is same as it is in the database.
-        if ($row['Email'] === $username && $row['Password'] === $password) {
-              header("Location: Dashboard.php");
-            exit();
-          }
-          else{
-            echo "<script>alert('Please enter username and password.');</script>";
-          }
+        
+        if (mysqli_num_rows($r) === 1) {
+            $row = mysqli_fetch_assoc($r);
+            
+            if ($row['Email'] === $username && $row['Password'] === $password) {
+                 $_SESSION['Email'] = $row['Email'];
+                  
+                  header("Location: Dashboard.php");
+                  exit();
+              }
+              else{
+                
+                header("Location: Login.php?error=Incorect User name or password");
+                
+                exit();
+              }
+            }
+            else{
+              header("Location: Login.php?error=Incorect User name or password");
+                  exit();
+            }
         }
-
+        
     ?>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <div class="container">
       <form class="p-5 shadow bg-info" action="Login.php" method="post">
