@@ -25,7 +25,7 @@
                 </div>
                 </div>
                 <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img class="object-cover object-center rounded" alt="hero" src="first.jpg">
+                <img class="object-cover object-center rounded" alt="hero" src="/Photo/first.jpg">
                 </div>
             </div>
         </section>
@@ -102,7 +102,7 @@
                             </svg>
                             <p class="leading-relaxed mb-6">Hello guys, This is Anshu a full stact web devloper and founder of WorldProgramming. Main idea of devlopling this project WorldProgramming is given by Anshu. This plateform for all new programmer hai devloper.</p>
                             <a class="inline-flex items-center">
-                                <img alt="testimonial" src="Anshu.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                                <img alt="Anshu" src="Anshu.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
                                 <span class="flex-grow flex flex-col pl-4">
                                 <span class="title-font font-medium text-gray-900">Anshu Kumar</span>
                                 <span class="text-gray-500 text-sm">Founder</span>
@@ -117,7 +117,7 @@
                             </svg>
                             <p class="leading-relaxed mb-6">Hii guys, This is Ankita a front-end web devloper and founder of WorldProgramming. Second Main idea of devlopling this project WorldProgramming is given by Ankita. This plateform for all new programmer hai devloper.</p>
                             <a class="inline-flex items-center">
-                                <img alt="testimonial" src="Ankita.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                                <img alt="Ankita" src="Ankita.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
                                 <span class="flex-grow flex flex-col pl-4">
                                 <span class="title-font font-medium text-gray-900">Ankita kumari</span>
                                 <span class="text-gray-500 text-sm">Designer</span>
